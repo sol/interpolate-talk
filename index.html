@@ -249,7 +249,7 @@ instance ToString Int where
 
 Issues:
 
- * We can <span class="emphasize">not easily derive instances</span> for this class
+ * We can <span class="emphasize">not easily derive instances</span> for this class (update: with `-XDefaultSignatures` and GHC 7.10 this will hopefully change)
  * What if we want to interpolate values of a <span class="emphasize">type from an other package</span>? (orphan instances...)
 
 ---
